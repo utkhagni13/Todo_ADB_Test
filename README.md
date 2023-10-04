@@ -1,4 +1,6 @@
-# AdBrew Test!
+# NOTE: DO NOT FORK THIS REPOSITORY. CLONE AND SETUP A STANDALONE REPOSITORY.
+
+# Adbrew Test!
 
 Hello! This test is designed to specifically test your Python, React and web development skills. The task is unconventional and has a slightly contrived setup on purpose and requires you to learn basic concepts of Docker on the fly. 
 
@@ -13,7 +15,7 @@ This repository includes code for a Docker setup with 3 containers:
 We highly recommend you go through the setup in `Dockerfile` and `docker-compose.yml`. If you are able to understand and explain the setup, that will be a huge differentiator.
 
 # Setup
-1. Clone this repository
+1. Clone this repository (DO NOT FORK)
 ```
 git clone https://github.com/adbrew/test.git
 ```
