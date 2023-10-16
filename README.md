@@ -55,10 +55,14 @@ When you run `localhost:3000`, you would see 2 things:
 2. A list with hardcoded TODOs. This should be changed to reflect TODOs in the backend (`GET http://localhost:8000/todos`). 
 3. When the form is submitted, the TODO list should refresh again and fetch latest list of TODOs from MongoDB.
 
-# Instructions
+# Instructions [IMPORTANT] 
 1. All React code should be implemented using [React hooks](https://reactjs.org/docs/hooks-intro.html) and should not use traditional stateful React components and component lifecycle method.
-2. Do not use Django's model or SQLite DB. Persist and retrieve all data from the mongo instance. A `db` instance is already present in `views.py`. 
-3. We are looking for developers who have strong fundamentals and can ramp up fast. We expect you to learn and grasp basic React Hooks/Mongo/Docker concepts on the fly.
-4. Do not submit your solution as a PR since this is a public repo and there are other candidates taking the same test. Send us a link to your repo privately.
-5. If you are able to complete the test, we will have a live walkthrough of your code and ask questions to check your understanding.
-6. The code for the actual solution is pretty easy. The code quality in your solution should be production-ready - error handling, abstractions, well-maintainable and modular code.
+2. Do not use Django's model, serializers or SQLite DB. Persist and retrieve all data from the mongo instance. A `db` instance is already present in `views.py`.
+3. Do not bypass the Docker setup. Submissions that do not have proper docker setup will be rejected.
+4. We are looking for developers who have strong fundamentals and can ramp up fast. We expect you to learn and grasp basic React Hooks/Mongo/Docker concepts on the fly.
+5. Do not fork this repository or submit your solution as a PR since this is a public repo and there are other candidates taking the same test. Send us a link to your repo privately.
+6. If you are able to complete the test, we will have a live walkthrough of your code and ask questions to check your understanding.
+7. The code for the actual solution is pretty easy. The code quality in your solution should be production-ready - error handling, abstractions, well-maintainable and modular code. If you're not aware, we recommend reading a bit about software design principles and applying them (both JS and Python). Here are some reading resources to get you started:
+   * https://kinsta.com/blog/python-object-oriented-programming/
+   * https://realpython.com/solid-principles-python/
+   * https://www.toptal.com/python/python-design-patterns
