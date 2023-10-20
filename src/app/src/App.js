@@ -29,9 +29,10 @@ const App = () => {
 		}
 		const addToDoData = async () => {
 			const res = await addData(todo);
-			console.log(res);
 			if (res.data) {
-				window.location.reload();
+				let updatedList = [...list, res.data];
+				setList(updatedList);
+				// window.location.reload(); // for refreshing the window
 			} else {
 				alert(res.error);
 			}

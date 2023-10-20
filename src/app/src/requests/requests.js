@@ -6,7 +6,7 @@ const axios_instance = axios.create({
 });
 
 export const fetchData = async () => {
-	const url = "/todo/";
+	const url = "";
 	const body = null;
 	try {
 		const res = await axios_instance.get(url, body);
@@ -17,7 +17,7 @@ export const fetchData = async () => {
 };
 
 export const addData = async (todoTitle) => {
-	const url = "/todo/addtodo/";
+	const url = "/addtodo/";
 	const body = { title: todoTitle };
 	try {
 		const res = await axios_instance.post(url, body);
